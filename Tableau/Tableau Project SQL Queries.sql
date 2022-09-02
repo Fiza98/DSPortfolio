@@ -60,17 +60,7 @@ Group by Location, Population, date
 order by PercentPopulationInfected desc
 
 
-
-
-
-
-
-
-
-
-
-
--- Queries I originally had, but excluded some because it created too long of video
+-- Queries I originally had, but excluded some of it.
 -- Here only in case you want to check them out
 
 
