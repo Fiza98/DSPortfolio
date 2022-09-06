@@ -1,3 +1,20 @@
+# Python program to display all the prime numbers within an interval
+
+lower = 0
+upper = 1000000
+
+print("Prime numbers between", lower, "and", upper, "are:")
+
+for num in range(lower, upper + 1):
+   # all prime numbers are greater than 1
+   if num > 1:
+       for i in range(2, num):
+           if (num % i) == 0:
+               break
+       else:
+           print(num)
+
+#FIND THE SUM FOR THE PRIME NUMBERS
 N=1000000
 s=0  # variable s will be used to find the sum of all prime.
 Primes=[True for k in range(N+1)] 
