@@ -102,6 +102,7 @@ We randomly split the images for each fruit into training (60%), validation (30%
 
 Examples of four images of each fruit class can be seen in the image below:
 
+ 
 ![alt text](/Images/cnn-image-examples.png "CNN Fruit Classification Samples")
 
  
